@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -28,4 +29,13 @@ h1 {
     h1 {
         font-size: 70px;
     }
+}
+
+
+button {
+    background-color: rgba(0, 0, 0, 0.507);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 6px;
+    padding: 20px;
 }
